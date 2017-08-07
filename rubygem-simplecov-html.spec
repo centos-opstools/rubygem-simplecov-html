@@ -1,13 +1,13 @@
 %{?scl:%scl_package rubygem-%{gem_name}}
 %{!?scl:%global pkg_name %{name}}
 
-%global need_simplecov 0
+%global need_simplecov 1
 %global gem_name simplecov-html
 
 Summary:       Default HTML formatter for SimpleCov
 Name:          %{?scl_prefix}rubygem-%{gem_name}
 Version:       0.10.0
-Release:       2%{?dist}
+Release:       8%{?dist}
 Group:         Development/Languages
 License:       MIT
 URL:           https://github.com/colszowka/simplecov-html
@@ -102,6 +102,9 @@ popd
 %{gem_instdir}/test
 
 %changelog
+* Sat Sep 24 2016 Rich Megginson <rmeggins@redhat.com> - 0.10.0-8
+- add dep on simplecov now that circular dep issues are solved
+
 * Thu Sep 22 2016 Rich Megginson <rmeggins@redhat.com> - 0.10.0-7
 - bump rev to rebuild for rhlog-buildrequires
 - remove dep on simplecov until circular dep issues are solved
