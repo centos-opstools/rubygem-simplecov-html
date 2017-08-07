@@ -16,6 +16,24 @@
       "revId": "1dd963bf066daedb1584c3e0f368955a67ffc3a7",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a890539_c1fe7238",
+        "filename": "rubygem-simplecov-html.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 390
+      },
+      "writtenOn": "2017-08-07T08:28:21Z",
+      "side": 1,
+      "message": "You\u0027re right, need to start with an older release:\n* Thu Sep 22 2016 Rich Megginson \u003crmeggins@redhat.com\u003e - 0.10.0-7\n- bump rev to rebuild for rhlog-buildrequires\n- remove dep on simplecov until circular dep issues are solved",
+      "parentUuid": "5a890539_c122f200",
+      "revId": "1dd963bf066daedb1584c3e0f368955a67ffc3a7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
